@@ -1,4 +1,4 @@
-describe("The payroll system", function () {
+  describe("The payroll system", function () {
   describe("populates a record from an Array", function () {
     it("has a function called createEmployeeRecord", function () {
       expect(createEmployeeRecord).to.exist
@@ -40,7 +40,7 @@ describe("The payroll system", function () {
   describe("process an Array of Arrays into an Array of employee records", function () {
     it("has a function called createEmployeeRecords", function () {
       expect(createEmployeeRecords).to.exist
-    })
+     })
 
     describe("createEmployeeRecords", function () {
       let employeeRecords;
